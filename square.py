@@ -1,4 +1,11 @@
-import turtle
+import turtle, random
+
+
+def chooseRandomColor():
+    red = random.random()
+    green = random.random()
+    blue = random.random()
+    return red, green, blue
 
 
 def squere(n, a):
@@ -18,6 +25,7 @@ def main():
     print("Добро пожаловать, вы рисуете квадрат! Введите следующие параметры:")
     n = int(input("Глубина рекурсии: "))
     a = int(input("Длину стороны квадрата: "))
+    turtle.color(chooseRandomColor())
     squere(n, a)
 
 
