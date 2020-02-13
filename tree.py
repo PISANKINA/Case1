@@ -18,6 +18,7 @@ def main():
     hight = int(input('Пожалуйста, укажите высоту дерева: '))
     engle = int(input('Пожалуйста, укажите величину угла: '))
     turtle.left(90)
+    turtle.color('green')
     tree(hight, engle)
 
 
