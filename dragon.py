@@ -12,6 +12,7 @@ def dragon(c, height, n):
 
 
 def main():
+    print("Добро пожаловать, вы рисуете Дракона! Введите следующие параметры:")
     height = int(input("Длину стороны ветки: "))
     n = int(input("Глубина рекурсии: "))
     turtle.color('pink')
